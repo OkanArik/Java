@@ -27,7 +27,7 @@ public class Main {
     }
     public static void main(String[] args) {
         System.out.println(methodByPatterDecrement(203));
-        System.out.println(methodByPatterDecrement(16));
-        System.out.println(methodByPatterDecrement(33));
+        System.out.println(methodByPatterDecrement(16)); // 16 11 6 1 -4 1 6 11 16
+        System.out.println(methodByPatterDecrement(33)); // 33 28 23 18 13 8 3 -2 3 8 13 18 23 28 33
     }
 }
