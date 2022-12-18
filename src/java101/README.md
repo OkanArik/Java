@@ -933,6 +933,101 @@ problemlere ayırmayı sağlar. İki sayıyı birbirine eklemek kolaydır, ancak
 karmaşıktır. Recursive metotlar sürekli kendilerini çağırdıkları için dikkat edilmesi gereken durum en son aşama için
 koşul koyulmasıdır .
 
+# Sınıflar (Classes)
+
+- Java Nesne Yönelimli bir programlama dilidir. Java'daki her şey, değişkenleri ve metotları ile birlikte sınıflar ve
+  nesnelerle ilişkilidir. Örneğin: gerçek hayatta araba bir nesnedir. Otomobilin ağırlık ve renk gibi değişkenleri ve
+  sürüş ve fren gibi metotları vardır. Nesne yönelimli programlamanın amacı yazdığımız kodlara soyut bir kavrama
+  dönüştürmektir.
+
+- Sınıflara ait nitelikler ve davranışlar vardır. Programlamada nitelikler için değişkenler (variable) ,davranışlar için
+  ise metotlar (method) tanımlanır.
+
+## Sözdizimi (Syntax)
+
+> public class <class_name>{<br>
+> &emsp;&emsp;<variables...>;<br>
+> &emsp;&emsp;<methods...>;<br>
+> }
+
+- Java'da "sınıf" tanımlanırken "class" deyimi kullanılır ve sonrasında sınıf ismi yazılır. Java'da sınıf isimleri her
+  zaman büyük harf ile başlaması gerekmektedir ve oluşturulan Java dosyası ile public sınıf ismi aynı isimde olmalıdır.
+
+
+- Sınıf ismini de verdikten sonra "{" işareti ile sınıfa ait kapsamı yani kod bloğunu oluştururuz. "}" parantezi ile de
+  sınıfa ait kapsamı kapatırız. Böylece, sınıfımız için yazacağımız kodlar "{}" arasında kalan alanda yazılacaktır. Bu
+  da sınıfın kapsamını ifade eder.
+
+
+- Sınıf kod bloğunu açtıktan sonra bu kod bloğu için değişkenleri ve metotları yazarız. Unutmayınız ki metotlar da
+  kendilerine ait kod blokları, yani kapsamları vardır. Onları da "{}" ile belirtiriz.
+
+
+- Sınıflar nesneler oluşturabilmek için yazılım dünyasında oluşturulmuş şablonlardır. Bu şablon nesne ile ilgili
+  modellenecek tüm özellikleri ve davranışları bir taslak halinde kodlanmasını sağlar. Böylece, tanımlanmış bir sınıftan
+  binlerce nesne oluşturabiliriz.
+
+# Nesne Oluşturma
+
+- Sınıflar nesneleri tarif eden şablonlardı. Nesneler ise bu şablonlardan üretilen fiziksel yapılardır. Her üretilen
+  nesne Hesap Hafıza Bölgesi'nde tutulur. Böylece sınıftan fiziksel karşılığı olan bir yapı elde etmiş oluruz. Sınıftan
+  onlarca, yüzlerce nesne yaratabiliriz. Hepsi de hafızada başka adresleri gösterirler.
+
+Java'da nesne üretmek için kullanılan sözdizimi :
+
+> ClassName object = new ClassName();
+
+- **ClassName :** Nesne oluşturmak istediğimiz sınıfı belirtiyoruz. Bu sınıf daha öncesinde projemizde tanımlanmış
+  olması gerekmektedir.
+- **object :** Nesnemize verdiğimiz isimdir ve aynı isimde birden fazla nesne oluşturulamaz.
+- **new :** Java'da nesne üretmek için "new" anahtar kelimesini kullanırız.
+- **ClassName(); :** Sınıfa ait Kurucu (Constructor) Metodu temsil eder. Varsayılan olarak parametresiz tanımlanır.
+
+## Nesne Niteliklerine Erişim
+
+- Nesneye ait niteliklere erişim sağlamak için nokta (.) kullanılır. İlgili nesnenin ismini sonuna nokta koyularak
+  erişilmek istenilen niteliğin ismi yazılır.
+- **sitatic** keywor'dü kullanılarak tanımlanmış nitelikler sınıflara aittir ve sınıf isminden sonra (.) koyularak
+  erişilir.
+
+## Nesne Metotlarına Erişim
+
+- Nesneye ait davranışlara yani metotlara erişmek için nokta (.) kullanılır. İlgili nesnenin ismini sonuna nokta
+  koyularak
+  erişilmek istenilen metodun ismi yazılır ve var ise parametreleri girilir.
+
+- **sitatic** keywor'dü kullanılarak tanımlanmış methodlar sınıflara aittir ve sınıf isminden sonra (.) koyularak
+  erişilir.
+
+# Constructor (Kurucu) Metotlar
+
+- Constructor (Kurucu) Metotlar
+  Kurucu metotlar sınıf tasarlanırken yazılırlar. Sınıfınızı yazarken kurucu metotlarınızı da tanımlayabilirsiniz. Eğer
+  sınıf içinde hiç kurucu metot tanımlamazsınız parametresiz boş bir kurucu metot Java tarafından otomatik olarak
+  tanımlanır.
+
+
+- Kurucu metotlar ilgili sınıftan bir nesne üretmeye çalıştığınızda daha nesne üretme aşamasında çalıştırılan özel
+metotlardır (fonksiyonlardır). Kurucu metotların isimleri Sınıf ismiyle aynı olmak zorundadır. Dönüş tipi olarak veya
+void olarak herhangi bir tanımlama yapılmasına gerek yoktur.
+
+
+"new" anahtar kelimesi ile nesne üretirken kurucu metot çağrımı yapılır. İki tip kurucu metot vardır:
+
+- Parametresiz Varsayılan Kurucu Metot
+- Parametreli Kurucu Metot
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

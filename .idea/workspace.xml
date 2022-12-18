@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ac99df31-f124-4eb7-9ffa-5ef7e3288bd0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java101/practices/theProgramThatIncludesMethodPractices/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java101/practices/theProgramThatIncludesMethodPractices/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java101/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/java101/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
       <recent name="C:\Users\Okan\OneDrive\Desktop\Java\Java\src\java101" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.java101.practices.advancedCalculator.Main">
+  <component name="RunManager" selected="Application.java101.practices.theProgramThatIncludesClassPractices.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java101.practices.methodByPattern.Main" />
       <module name="Java" />
@@ -61,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java101.Test" />
+    <configuration name="java101.practices.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java101.practices.Test" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java101.*" />
+          <option name="PATTERN" value="java101.practices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="java101.practices.theProgramThatIncludesLoopPractices.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java101.practices.theProgramThatIncludesLoopPractices.Main" />
+    <configuration name="java101.practices.theProgramThatIncludesClassPractices.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java101.practices.theProgramThatIncludesClassPractices.Main" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java101.practices.theProgramThatIncludesLoopPractices.*" />
+          <option name="PATTERN" value="java101.practices.theProgramThatIncludesClassPractices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.java101.practices.theProgramThatIncludesClassPractices.Main" />
+        <item itemvalue="Application.java101.practices.Test" />
         <item itemvalue="Application.java101.practices.advancedCalculator.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.java101.practices.theProgramThatIncludesMethodPractices.Main" />
-        <item itemvalue="Application.java101.practices.theProgramThatIncludesLoopPractices.Main" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -153,14 +152,22 @@
       <option name="project" value="LOCAL" />
       <updated>1671309961770</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="I added advancedCalculator">
+      <created>1671357214461</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671357214461</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Second Commit" />
     <MESSAGE value="Third Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Third Commit" />
+    <MESSAGE value="I added advancedCalculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="I added advancedCalculator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
