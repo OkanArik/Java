@@ -113,9 +113,9 @@ public class Main {
             }
         } while (testCounter <= 10);*/
 
-        System.out.println(methodByPatterDecrement(203));
+/*        System.out.println(methodByPatterDecrement(203));
         System.out.println(methodByPatterDecrement(16));
-        System.out.println(methodByPatterDecrement(12));
+        System.out.println(methodByPatterDecrement(12));*/
 
     }
 }
