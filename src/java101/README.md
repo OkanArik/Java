@@ -705,7 +705,7 @@ kısmında kullanılacak olan değişkenler byte, short, int, char veya String v
   sağlanmıyorsa döngü sona erer.
 
 <p align="center"> 
-<img width="200" height="500" src="images/LoopStructure.png">
+<img width="200" height="500" src="images/loopStructure.png">
 </p>
 
 ## While Döngüsü
